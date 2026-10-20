@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Markdown Slides</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="editor-container">
+            <div class="editor-header">
+                <h2>My Editor</h2>
+            </div>
+            <textarea id="editor"></textarea>
+            </textarea>
+
+        </div>
+        <div class="preview-container">
+            <div class="preview-header">
+                <h2>Live Preview</h2>
+            </div>
+            <div id="preview">
+
+            </div>
+
+            <div class="controls-container">
+            <button id="btn-left" disabled>Left</button>
+            <button id="btn-right">Right</button>
+            <button id="btn-fullscreen">Fullscreen</button>
+        </div>
+        <p id="slide-count">
+            <span id="current-slide">1</span>/<span id="total-slides">1</span>
+        </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
